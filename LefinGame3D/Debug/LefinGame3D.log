@@ -1,0 +1,59 @@
+﻿Build started 5/12/2012 2:00:28 AM.
+     1>Project "c:\wamp\www\projects\LefinGame3D\LefinGame3D\LefinGame3D.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LefinGame3D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp MGameKeyboardControl.cpp MGameScore.cpp MThirdPersonCamera.cpp
+         MThirdPersonCamera.cpp
+         MGameScore.cpp
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\mgamescore.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         MGameKeyboardControl.cpp
+         main.cpp
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(162): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(162): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(169): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(169): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(194): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(194): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(195): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(195): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(207): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(207): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(208): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(208): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(208): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(216): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(216): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(235): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\wamp\www\projects\lefingame3d\lefingame3d\main.cpp(235): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LefinGame3D.exe.embed.manifest.res" Debug\LefinGame3D_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\wamp\www\projects\LefinGame3D\LefinGame3D\Debug\LefinGame3D.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LefinGame3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\wamp\www\projects\LefinGame3D\LefinGame3D\Debug\LefinGame3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\wamp\www\projects\LefinGame3D\LefinGame3D\Debug\LefinGame3D.lib" /MACHINE:X86 Debug\LefinGame3D.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\MGameKeyboardControl.obj
+         Debug\MGameScore.obj
+         Debug\MThirdPersonCamera.obj
+       Manifest:
+         Deleting file "Debug\LefinGame3D.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\LefinGame3D.exe.embed.manifest" /manifest Debug\LefinGame3D.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LefinGame3D.exe.embed.manifest.res" Debug\LefinGame3D_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\wamp\www\projects\LefinGame3D\LefinGame3D\Debug\LefinGame3D.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LefinGame3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\wamp\www\projects\LefinGame3D\LefinGame3D\Debug\LefinGame3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\wamp\www\projects\LefinGame3D\LefinGame3D\Debug\LefinGame3D.lib" /MACHINE:X86 Debug\LefinGame3D.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\MGameKeyboardControl.obj
+         Debug\MGameScore.obj
+         Debug\MThirdPersonCamera.obj
+         LefinGame3D.vcxproj -> c:\wamp\www\projects\LefinGame3D\LefinGame3D\Debug\LefinGame3D.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\LefinGame3D.unsuccessfulbuild".
+         Touching "Debug\LefinGame3D.lastbuildstate".
+     1>Done Building Project "c:\wamp\www\projects\LefinGame3D\LefinGame3D\LefinGame3D.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.34
